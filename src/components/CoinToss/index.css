@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.heading {
+  color: #a35200;
+  font-weight: 500;
+}
+.description {
+  font-weight: 500;
+  margin: 5px;
+  padding: 20px;
+  font-weight: 30px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.image {
+  width: 150px;
+  padding: 10px;
+}
+.counting {
+  display: flex;
+  flex-direction: row;
+}
